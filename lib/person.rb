@@ -71,13 +71,14 @@ class Person
         if topic == "politics"
             self.happiness -= 2
             person.happiness -= 2
-            puts "blah blah partisan blah lobbyist"
+            return "blah blah partisan blah lobbyist"
         elsif topic == "weather"
             self.happiness += 1
             person.happiness += 1
-            puts "blah blah sun blah rain"
+            return "blah blah sun blah rain"
         else topic == "weather" || "politics"
-            puts "blah blah blah blah blah"
+            return "blah blah blah blah blah"
+        end
     
     
     end
